@@ -1,52 +1,92 @@
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
+@import 'libs/skel';
 
 /*
-	Strongly Typed by HTML5 UP
+	Phantom by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Basic */
+/* Form */
 
 	form {
-		input[type="text"],
-		input[type="email"],
-		input[type="password"],
-		select,
-		textarea {
-			position: relative;
-			-ms-behavior: url('assets/js/ie/PIE.htc');
+		.field {
+			float: none !important;
+			width: 100% !important;
+			padding-left: 0 !important;
 		}
 	}
 
-	input[type="button"],
+/* Button */
+
 	input[type="submit"],
 	input[type="reset"],
+	input[type="button"],
 	button,
 	.button {
-		position: relative;
-		-ms-behavior: url('assets/js/ie/PIE.htc');
-	}
+		border: solid 2px _palette(fg) !important;
 
-	.button, .box.excerpt .date {
-		position: relative;
-		-ms-behavior: url('assets/js/ie/PIE.htc');
-	}
+		&:hover {
+			border-color: _palette(accent1) !important;
+		}
 
-/* Sections/Article */
-
-	section, article {
-		> .last-child, &.last-child {
-			margin-bottom: 0;
+		&.special {
+			border: none !important;
 		}
 	}
 
-/* Wrappers */
+/* Tiles */
 
-	#banner-wrapper {
-		.inner {
-			-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
+	.tiles {
+		article {
+			> .image {
+				&:before, &:after {
+					display: none;
+				}
+			}
+		}
+	}
+
+/* Header */
+
+	#header {
+		.logo {
+			.symbol {
+				display: none;
+			}
+		}
+
+		nav {
+			ul {
+				li {
+					a[href="#menu"] {
+						text-indent: 0;
+						width: auto;
+						font-size: 0.8em;
+
+						&:before, &:after {
+							display: none;
+						}
+					}
+				}
+			}
+		}
+	}
+
+/* Footer */
+
+	#footer {
+		> .inner {
+			section {
+				width: 50%;
+				margin-left: 3em;
+
+				&:first-child {
+					margin-left: 0;
+					width: 40%;
+				}
+			}
 		}
 	}
