@@ -1,3 +1,4 @@
+function game() {
 alert("Once there was a young woman, with a normal family with a normal job but eversince that day she wasnt normal...EVER SINCE THAT DREADFUL DAY");
 
 var question = prompt("You run into a pig. Do you kill it for food or do you keep it?") 
@@ -35,4 +36,5 @@ var question4 = prompt("you are now safe but in the morning you find that the pi
   else{
    alert("you are a cruel person! GAME OVER!"); 
   }
-alert("Thank you for playing my game! I really hope you like it! If you like my game please tell your friends about my game and please ask to play my game! Thanks !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1")
+alert("Thank you for playing my game! I really hope you like it! If you like my game please tell your friends about my game and please ask to play my game! Thanks !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1");
+}
