@@ -1,0 +1,15 @@
+body {
+  background-image: url("http://www.howtogeek.com/wp-content/uploads/2015/01/ximg_54bdd0bbd5d2f.jpg.pagespeed.gp+jp+jw+pj+js+rj+rp+rw+ri+cp+md.ic.dSHnEtZ4r9.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-size: 20px;
+  color: #99ffcc;
+}
+
+button {
+  background:#99ffcc;
+  font-size: 20px;
+  border: 2px dotted #000000;
+}
